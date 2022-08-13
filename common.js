@@ -6,7 +6,7 @@ function login() {
         alert("로그인을 할 수 없습니다")
     }
     else{
-        location.href="main.html"
+        location.href="project_main.html"
     }
 }
 
