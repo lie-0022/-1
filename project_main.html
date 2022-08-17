@@ -7,22 +7,56 @@
     <title>main</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body bgcolor="#115b6c"> 
     <div class="header">
         <div class="logo">
             <img src="c1a10c3123ccee17.PNG" alt="로고">
         </div>
         <div class="menu">
             <div><a href="project_myservic.html">my service</a></div>
-            <div><a href="project_subscribe,html">subscribe</a></div>
+            <div><a href="project_subscribe.html">subscribe</a></div>
             <div><a href="login.html">login</a></div>
         </div>
     </div>
-    <div class="center"></div>
-    <div class="feeter">
-        <div><p>저작권</p></div>
-        <div><p>연락쳐</p></div>
+    <!-- <div id="slider">
+        <a href="#"><img src="Slide_1.png" alt="슬라이드1"></a>
+        <a href="#"><img src="Slide_2.png" alt="슬라이드2"></a>
+        <a href="#"><img src="Slide_3.png" alt="슬라이드3"></a>
+    </div> -->
+    <div class="section">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+
+        <div class="slidewrap">
+            <ul class="slidelist">
+                <li>
+                    <a>
+                        <label for="slide03" class="left"></label>
+                        <img src="Slide_1.png">
+                        <label for="slide02" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide01" class="left"></label>
+                        <img src="Slide_2.png">
+                        <label for="slide03" class="right"></label>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <label for="slide02" class="left"></label>
+                        <img src="Slide_3.png">
+                        <label for="slide01" class="right"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
+    <footer class="py-5 bg-black">
+        <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p></div>
+    </footer>
     
 </body>
 </html>
